@@ -4,7 +4,7 @@ import os
 import stripe
 
 stripe.api_key = os.getenv("STRIPE_SECRET_KEY")
-endpoint_secret = "whsec_fbd4303b3eb759f55fc3644a8b0a1502fc4938f5dccd1d58b346bc497ad99aa9"
+endpoint_secret = "<get from stripe cli>"
 
 WIN_DISPUTE = True
 
